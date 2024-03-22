@@ -1,13 +1,12 @@
 package main;
 
+
 import api.CepApiConsumer;
 
 import javax.swing.*;
-import javax.xml.bind.JAXBException;
-import java.io.IOException;
 
 public class App {
-    public static void main(String[] args) throws IOException, InterruptedException, JAXBException {
+    public static void main(String[] args) {
         var cepConsumer = new CepApiConsumer();
 
         var cep = JOptionPane.showInputDialog("Digite o CEP: ");
